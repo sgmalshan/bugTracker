@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Bug Tracker</title>
+	<link href="../css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<link href="../css/custom/forgot_style.css" rel="stylesheet" media="screen">
+
+	<script src="../js/jquery-3.1.0.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-inverse">
+	<div class="container container">
+		<div id="logo" class="navbar-header">
+			<a class="navbar-brand" href="#">Bug Tracker</a>
+		</div>
+		
+		<ul class="nav navbar-nav">
+			<li class=""><a href="#">New Bug</a></li>
+			
+			<li class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Bug</a>
+				<ul class="dropdown-menu">
+					<li><a href="recent.html">Urgent</a></li>
+					<li><a href="bugList.html">Open</a></li>
+					
+					<li role="separator" class="divider"></li>
+					<li><a href="#">Assigned to me</a></li>
+					<li><a href="#">Closed</a></li>
+					
+					<li role="separator" class="divider"></li>
+					<li><a href="#">Invalid</a></li>
+				</ul>
+			</li>
+			
+			<li class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Messaging</a>
+				<ul class="dropdown-menu">
+					<li><a href="#">Recieved</a></li>
+					<li><a href="#">Sent</a></li>
+					
+					<li role="separator" class="divider"></li>
+					<li><a href="#">Composed</a></li>
+				</ul>
+			</li>
+			
+			<li><a href="#">Backlogs</a></li>
+		</ul>
+		
+		<ul class="nav navbar-nav navbar-right">
+			<li><a href="#">My Account</a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<section class="forgot_container">
+	<div class="forgot-form">
+		<h3 id="space">Forgot Password</h3>
+		<form action="" method="POST">
+			<p><label>&nbsp;	&nbsp;	&nbsp;	Email&nbsp;&nbsp; </label>
+			<input id="email" type="text" name="email" required/></p>
+ 
+			<input class="btnregister" type="submit" name="submit" value="Reset Credentials" /> <br>
+			<br>			
+			<a class="btn" href="login.html">Login	</a>Or
+			<a class="btn" href="login.html">Login</a>
+			
+		</form>
+	</div>
+</section>
+
+</body>
+</html>
+

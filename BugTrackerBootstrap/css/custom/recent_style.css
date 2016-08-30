@@ -1,0 +1,47 @@
+/*Navigation Bar Styling*/
+
+.navbar{
+	background-color: #ff9999;
+	font-family: "Comic Sans MS";
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+}
+
+.nav.navbar-nav.navbar-right li a {
+    color: blue;
+	text-decoration: underline;
+}
+
+
+
+.dropdown-menu li a{
+	color: black;
+}
+
+#message {
+	border: 1px solid black;
+	padding-left: 20px;
+	margin-left: 100px;
+	width:1100px;
+}
+
+#colorBox {
+	width:50px;
+	height:50px;
+	border:1px solid #000;
+	background-color:red;
+	
+	margin-left:20px;
+	margin-top:100px;
+}
+
+#recentTitle {
+	padding-left:100px;
+	font-family: "Comic Sans MS";
+}
+
+.navbar .nav > li > a { 
+    color:  white;
+}

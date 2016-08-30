@@ -1,0 +1,46 @@
+/*Navigation Bar Styling*/
+.navbar{
+	background-color: #ff9999;
+	font-family: "Comic Sans MS";
+	
+}
+
+
+/*Login Section Styling*/
+
+.register_container {
+	text-align: right;
+	border: 1px solid black;
+	width: 400px;
+	
+    padding-right: 40px;
+	padding-bottom: 40px;
+	padding-left:50px;
+   
+	margin-top: 70px;
+    margin-left: 900px;
+	margin-right: 100px;
+	background-color: white;
+	
+  
+}
+
+#space{
+	text-align: left;
+	font-size: 15px;
+}
+
+
+.navbar-default .navbar-brand {
+    color: white;
+}
+
+.nav.navbar-nav.navbar-right li a {
+    color: blue;
+	text-decoration: underline;
+}
+
+.navbar .nav > li > a { 
+    color:  white;
+}
+
