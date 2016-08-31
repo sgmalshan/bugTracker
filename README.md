@@ -15,5 +15,4 @@ This is a front end design of a bug tracking system. which can be used to keep t
  1. Version 0.1.0
 
 <h1>Meta</h1>
-sgmalshan@gmail.com
-@malshanrulz
+Malshan Gunawardana - sgmalshan@gmail.com
