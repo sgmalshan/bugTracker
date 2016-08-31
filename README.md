@@ -1,4 +1,4 @@
-# bugTracker
+# Bug Tracker
 This is a front end design of a bug tracking system. which can be used to keep track of the bugs which might overcome during a project.
 
 <h1>Installation</h1>
